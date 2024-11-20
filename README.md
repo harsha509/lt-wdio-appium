@@ -11,6 +11,11 @@
 
 ## Running the Tests
 
+### Android
 * To run tests in android: `npm run wdio-android` <br>
-* To run tests in android: `npm run wdio-ios` <br>
+* To run tests in android virtual device: `npm run wdio-android-VD` <br>
+
+### IOS
+* To run tests in ios: `npm run wdio-ios` <br>
+* To run tests in ios virtual device: `npm run wdio-ios-VD` <br>
 
