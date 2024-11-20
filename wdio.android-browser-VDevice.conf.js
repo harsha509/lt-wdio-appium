@@ -3,7 +3,7 @@ export const config = {
     user: process.env.LT_USERNAME || "YOUR_USERNAME",
     key: process.env.LT_ACCESS_KEY || "YOUR_ACCESS_KEY",
     path: "/wd/hub",
-    hostname: "mobile-hub.lambdatest.com",
+    hostname: "hub.lambdatest.com",
     port: 80,
 
     specs: [
@@ -17,10 +17,13 @@ export const config = {
     capabilities: [{
         "lt:options": {
             "w3c": true,
-            "platformName": "ios",
-            "deviceName": "iPhone 16",
-            "platformVersion": "18",
-            "isRealMobile": true
+            "platformName": "android",
+            "deviceName": "Pixel 2",
+            "appiumVersion": "1.22.3",
+            "platformVersion": "10",
+            "build": "Appium Android VD",
+            "name": "Chrome Test",
+            "project": "WDIO-appium-android"
         }
     }],
 

@@ -17,10 +17,13 @@ export const config = {
     capabilities: [{
         "lt:options": {
             "w3c": true,
-            "platformName": "android",
-            "deviceName": "Realme C21 Y",
-            "platformVersion": "11",
-            "isRealMobile": true
+            "platformName": "ios",
+            "deviceName": "iPhone 16",
+            "platformVersion": "18",
+            "isRealMobile": true,
+            "build": "Appium IOS",
+            "name": "Chrome Test",
+            "project": "WDIO-appium-ios",
         }
     }],
 
